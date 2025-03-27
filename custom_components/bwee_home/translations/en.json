@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "device_not_found": "Please check if the IP address is correct",
+            "cannot_connect": "Failed to connect to the gateway",
+            "invalid_auth": "Invalid API key",
+            "unknown": "Unknown error, please contact the developer",
+            "no_tap_button": "Please press the button on the gateway first"
+        },
+        "step": {
+            "manual": {
+                "title": "Gateway Connection",
+                "description": "Manually enter gateway connection details",
+                "data": {
+                    "ip_address": "Local IP Address",
+                    "api_key": "API Key(optional)"
+                },
+                "data_description": {
+                    "ip_address": "Enter the gateway's local network IP",
+                    "api_key": "Enter the gateway API key (optional)"
+                }
+            },
+            "linkage": {
+                "title": "Gateway Authorization",
+                "description": "Press the button on the gateway to register Bwee lights in Home Assistant.\n\n![Button location on gateway](/static/images/config_philips_hue.jpg)"
+            },
+            "linkage_error": {
+                "title": "Connection Failed"
+            }
+        }
+    }
+}

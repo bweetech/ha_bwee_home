@@ -1,0 +1,16 @@
+{
+  "domain": "bwee_home",
+  "name": "BWEE home",
+  "codeowners": [
+    "@jesse"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "platforms": ["light"],
+  "documentation": "https://www.home-assistant.io/integrations/bwee_home",
+  "iot_class": "local_push",
+  "requirements": ["ping3", "paho-mqtt"],
+  "integration_type": "hub",
+  "zeroconf": ["_bwee._tcp.local.", "_hap._tcp.local."],
+  "version": "1.0.0"
+}

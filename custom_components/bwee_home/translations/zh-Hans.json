@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "设备已经配置好了"
+        },
+        "error": {
+            "device_not_found": "请核对IP地址是否填写正确",
+            "cannot_connect": "无法连接到网关",
+            "invalid_auth": "接口密钥无效",
+            "unknown": "未知异常，请联系作者",
+            "no_tap_button": "请先按下网关上方的按钮"
+        },
+        "step": {
+            "manual": {
+                "title": "网关连接",
+                "description": "手动填写网关连接信息",
+                "data": {
+                    "ip_address": "局域网IP地址",
+                    "api_key": "接口密钥（选填）"
+                },
+                "data_description": {
+                    "ip_address": "填写网关在局域网中的有效地址",
+                    "api_key": "填写网关接口密钥（选填）"
+                }
+            },
+            "linkage": {
+                "title": "网关授权",
+                "description": "按下网关上的按钮，在家庭助理中注册榜威灯具。\n\n![网关上按钮的位置](/static/images/config_philips_hue.jpg)"
+            },
+            "linkage_error": {
+                "title": "连接失败"
+            }
+        }
+    }
+}
