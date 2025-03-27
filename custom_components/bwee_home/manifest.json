@@ -7,7 +7,7 @@
   "config_flow": true,
   "dependencies": [],
   "platforms": ["light"],
-  "documentation": "https://www.home-assistant.io/integrations/bwee_home",
+  "documentation": "https://github.com/bweetech/ha_bwee_home",
   "iot_class": "local_push",
   "requirements": ["ping3", "paho-mqtt"],
   "integration_type": "hub",
